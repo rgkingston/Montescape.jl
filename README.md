@@ -20,9 +20,9 @@ Every Monte Carlo iteration rebuilds the friction surface from freshly sampled w
 
 Download the installer for your OS from the project Releases page and run it. The installer ships a private Julia runtime plus a precompiled sysimage, so the user never installs Julia themselves.
 
-- **Windows**: `MovementFramework-Setup.exe`
-- **macOS**: `MovementFramework.dmg`
-- **Linux**: `MovementFramework-x86_64.AppImage`
+- **Windows**: `Montescape-Setup.exe`
+- **macOS**: `Montescape-macOS.dmg`
+- **Linux**: `Montescape-x86_64.AppImage`
 
 Launch the app. A terminal window appears (the Julia HTTP server) and your default browser opens at `http://localhost:8765` showing a 7-tab form. Fill it in, click *Run locally* or *Generate HPC package*.
 

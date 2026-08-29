@@ -1,0 +1,112 @@
+# Hannibal case study - Drome route, Pandolf+Santee, full layer stack.
+project:
+  name: synthesis_pandolf_drome
+  output_dir: /scratch/$USER/outputs
+  run_id: auto
+  seed: 42
+
+analysis:
+  pass_buffer_m: 2000.0
+
+data:
+  dem_raster: case_studies/hannibal/testrunfiles/FABDEM_Elevation_UTM32N_90m.tif
+  sites_vector: case_studies/hannibal/testrunfiles/sites.gpkg
+  site_name_field: name
+  passes_vector: case_studies/hannibal/testrunfiles/passes.gpkg
+
+grid:
+  resolution_m: 90
+  snap_to: dem
+
+endpoints:
+  - name: synthesis_pandolf_drome_to_turin
+    source_name: Drome_Rhone_Confluence
+    ground_name: Turin
+    buffer_m: 1000
+    waypoints: []
+
+friction:
+  output_name: friction_surface.tif
+  mode: build
+  prebuilt_path: null
+  custom_layer_files:
+    - case_studies/hannibal/custom_layers/elephant_terrain.jl
+    - case_studies/hannibal/custom_layers/elephant_altitude.jl
+    - case_studies/hannibal/custom_layers/ambush_risk.jl
+  slope:
+    enabled: true
+    method: pandolf
+    weight: 0.30
+    body_weight_kg: 80.0
+    load_kg: 30.0
+    terrain_factor: 1.3
+    speed_ms: 1.2
+  tri:
+    enabled: true
+    weight: 0.07
+  aspect:
+    enabled: true
+    weight: 0.05
+    preferred_direction: 180
+  vegetation:
+    enabled: false
+    weight: 0.0
+  hydrology:
+    enabled: false
+    weight: 0.0
+  custom_layers:
+    - name: custom_elephant_terrain
+      enabled: true
+      weight: 0.10
+      reference_value: 10.0
+    - name: custom_elephant_altitude
+      enabled: true
+      weight: 0.18
+      reference_value: 10.0
+    - name: custom_ambush_risk
+      enabled: true
+      weight: 0.30
+      reference_value: 10.0
+
+lcp:
+  enabled: true
+  knight: true
+
+lcc:
+  enabled: true
+  threshold:
+    method: percent
+    value: 5.0
+  export_vector: true
+
+circuitscape:
+  enabled: true
+  scenario: advanced
+  julia_threads: 4
+  connect_four_neighbors_only: false
+  use_average_resistances: true
+  use_unit_currents: true
+  use_direct_grounds: true
+  write_cur_maps: true
+  write_volt_maps: false
+  log_transform_maps: false
+
+monte_carlo:
+  enabled: true
+  n_runs: 500
+  n_workers: 64
+  sampling: dirichlet
+  dirichlet_concentration: 6.0
+  seed: 42
+  dem_error:
+    enabled: true
+    dem_profile: FABDEM
+    error_m: 2.5
+    correlation_length_m: 120.0
+    method: smoothed_gaussian
+  vary_weights: {}
+  analyses: [lcp, lcc, circuitscape]
+  aggregate:
+    probability_surface: true
+    mean_current: true
+    confidence_interval: 0.95

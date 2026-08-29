@@ -1,0 +1,1524 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Montescape</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #eef5ee;
+    --panel:     #ffffff;
+    --ink:       #1b3336;
+    --muted:     #5a7a7d;
+    --accent:    #36656B;
+    --accent-2:  #4d8a8f;
+    --accent-3:  #2a4f54;
+    --ok:        #4d8c47;
+    --ok-light:  #75B06F;
+    --warn:      #b71c1c;
+    --warn-bg:   #fff0f0;
+    --warn-bdr:  #e53935;
+    --ok-bg:     #edf7ec;
+    --ok-bdr:    #75B06F;
+    --hint:      #a8a430;
+    --hint-bg:   #fafae6;
+    --yellow:    #DAD887;
+    --yellow-lt: #F0F8A4;
+    --border:    #c3d8da;
+    --hover:     #f2faf7;
+    --teal-faint:#e4f0f1;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding-bottom: 260px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* ---- Header ---- */
+  header {
+    background: var(--accent-3);
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    height: 56px;
+    border-bottom: 3px solid var(--yellow);
+    box-shadow: 0 2px 12px rgba(54,101,107,0.25);
+  }
+  header h1 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    flex: 1;
+  }
+  header h1 span {
+    color: var(--yellow);
+    font-weight: 300;
+  }
+  header .sub {
+    font-size: 11px;
+    opacity: 0.7;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+  }
+
+  /* ---- Nav ---- */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--panel);
+    border-bottom: 2px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 1px 6px rgba(54,101,107,0.08);
+  }
+  nav button {
+    background: transparent;
+    border: 0;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    letter-spacing: 0.01em;
+  }
+  nav button:hover {
+    color: var(--accent);
+    background: var(--teal-faint);
+  }
+  nav button.active {
+    border-bottom-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+    background: var(--teal-faint);
+  }
+
+  /* ---- Layout ---- */
+  main { padding: 18px; max-width: 1100px; margin: 0 auto; }
+
+  section {
+    display: none;
+    background: var(--panel);
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(54,101,107,0.06);
+  }
+  section.active { display: block; }
+
+  /* ---- Fieldset ---- */
+  fieldset {
+    border: 1px solid var(--border);
+    padding: 14px 16px;
+    margin: 0 0 14px;
+    border-radius: 6px;
+    background: var(--panel);
+    transition: box-shadow 0.15s;
+  }
+  fieldset:focus-within {
+    box-shadow: 0 0 0 2px rgba(54,101,107,0.15);
+  }
+  legend {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0 8px;
+    color: var(--accent);
+    background: var(--panel);
+  }
+
+  /* ---- Labels & form elements ---- */
+  label {
+    display: block;
+    margin: 10px 0 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: 0.01em;
+  }
+  small.yaml-key {
+    display: block;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 10.5px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    opacity: 0.8;
+  }
+
+  input[type=text],
+  input[type=number],
+  select,
+  textarea {
+    padding: 7px 10px;
+    border: 1.5px solid var(--border);
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    background: var(--panel);
+    color: var(--ink);
+    transition: border-color 0.15s, box-shadow 0.15s;
+    outline: none;
+  }
+  input[type=text]:focus,
+  input[type=number]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: var(--accent-2);
+    box-shadow: 0 0 0 3px rgba(54,101,107,0.12);
+  }
+  input[type=text], textarea, select { width: 100%; }
+  input[type=number] { width: 140px; }
+  textarea {
+    min-height: 70px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    resize: vertical;
+  }
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2336656B' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+
+  /* ---- Layout helpers ---- */
+  .row { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 180px; }
+
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    font-size: 13px;
+  }
+  .checkbox-row label { margin: 0; font-weight: 400; color: var(--ink); }
+  input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    accent-color: var(--accent);
+    cursor: pointer;
+  }
+
+  /* ---- Details/summary ---- */
+  details {
+    margin: 8px 0 12px;
+    background: var(--teal-faint);
+    border-left: 3px solid var(--accent-2);
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  details summary {
+    cursor: pointer;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 500;
+    user-select: none;
+  }
+  details summary:hover { color: var(--accent-3); }
+  details p {
+    font-size: 13px;
+    margin: 8px 0 2px;
+    color: var(--ink);
+    line-height: 1.6;
+  }
+
+  /* ---- Route/layer boxes ---- */
+  .route-box {
+    background: var(--teal-faint);
+    padding: 12px 14px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+  .route-box h4 {
+    margin: 0 0 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-3);
+    letter-spacing: 0.03em;
+  }
+
+  /* ---- Buttons ---- */
+  button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+    letter-spacing: 0.01em;
+  }
+  button:active { transform: translateY(1px); }
+
+  .action {
+    background: var(--accent);
+    color: white;
+    padding: 8px 16px;
+    font-size: 13px;
+    margin-right: 8px;
+    box-shadow: 0 1px 4px rgba(54,101,107,0.3);
+  }
+  .action:hover { background: var(--accent-3); box-shadow: 0 2px 8px rgba(54,101,107,0.4); }
+  .action:disabled {
+    background: #b8c9ca;
+    cursor: not-allowed;
+    box-shadow: none;
+    color: #eee;
+  }
+
+  .secondary {
+    background: var(--ok-light);
+    color: #1b3336;
+    padding: 8px 16px;
+    font-size: 13px;
+    margin-right: 8px;
+    box-shadow: 0 1px 4px rgba(117,176,111,0.3);
+  }
+  .secondary:hover { background: var(--ok); color: white; }
+
+  .danger {
+    background: transparent;
+    color: var(--warn);
+    border: 1.5px solid var(--warn-bdr);
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .danger:hover { background: var(--warn-bg); }
+
+  /* ---- Footer ---- */
+  #footer {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: var(--panel);
+    border-top: 3px solid var(--accent);
+    padding: 10px 18px;
+    box-shadow: 0 -4px 20px rgba(54,101,107,0.12);
+    z-index: 100;
+    max-height: 240px;
+    overflow-y: auto;
+  }
+  #footer .toprow {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  #weight-sum {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: 'DM Mono', monospace;
+    background: var(--warn-bg);
+    border-left: 4px solid var(--warn-bdr);
+    color: var(--warn);
+    font-weight: 500;
+  }
+  #weight-sum.ok {
+    background: var(--ok-bg);
+    border-left-color: var(--ok-bdr);
+    color: var(--ok);
+  }
+  #issues {
+    background: var(--warn-bg);
+    border-left: 4px solid var(--warn-bdr);
+    padding: 7px 12px;
+    font-size: 12px;
+    margin: 4px 0;
+    white-space: pre-wrap;
+    border-radius: 0 4px 4px 0;
+    color: var(--warn);
+    font-weight: 500;
+  }
+  #issues.ok {
+    background: var(--ok-bg);
+    border-left-color: var(--ok-bdr);
+    color: var(--ok);
+  }
+  #yaml-preview {
+    background: var(--accent-3);
+    color: var(--yellow-lt);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    white-space: pre;
+    overflow-x: auto;
+    max-height: 200px;
+  }
+  #status-line {
+    font-size: 12px;
+    color: var(--muted);
+    margin-left: auto;
+    font-style: italic;
+  }
+  #status-line.err { color: var(--warn); font-style: normal; font-weight: 600; }
+
+  /* ---- Help text ---- */
+  .help {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 4px 0 8px;
+  }
+
+  /* ---- Custom layer grid ---- */
+  .layer-row {
+    display: grid;
+    grid-template-columns: 2fr 80px 100px 1fr 60px;
+    gap: 8px;
+    align-items: center;
+    margin: 4px 0;
+  }
+  .layer-row input[type=text],
+  .layer-row input[type=number] { width: 100%; }
+
+  /* ---- Waypoint picker ---- */
+  .waypoint-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px 14px;
+    padding: 10px;
+    background: var(--teal-faint);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    max-height: 180px;
+    overflow-y: auto;
+    margin-top: 4px;
+  }
+  .waypoint-grid label {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .waypoint-grid label:hover { color: var(--accent); }
+  .waypoint-grid .empty {
+    grid-column: 1 / -1;
+    color: var(--muted);
+    font-style: italic;
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  /* ---- Misc ---- */
+  code {
+    font-family: 'DM Mono', monospace;
+    font-size: 11.5px;
+    background: var(--teal-faint);
+    color: var(--accent-3);
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+  }
+
+  /* footer details */
+  #footer details summary {
+    font-size: 12px;
+    color: var(--accent-2);
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  /* scrollbar styling */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--teal-faint); }
+  ::-webkit-scrollbar-thumb { background: var(--accent-2); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAV9ElEQVR4nFWaSaxk13nff9855w41vvfqTd2vu9kDm80m2ZRIiRSlWJRsSYkHxVJsQwgC75xFNlkkQBxAiA0jSGAYCrJJsvAmCyOOIgmJHYWCLGumqJkSKYpkkyKbPffr7jcPVXWnc86Xxa0mpVrUrXtv1alv/r7z/1/52rM/0cJPSF1K3y0SYiRoQEQQBRHB0L4EQQHQ2VEwKFaYnUNUUBWQe1fa37XfEH75paog8qtXZfYmzP7t3l3zq7/Tdn33lz/6a7amh8z1cp687zwfWHuajh0QNSIiKIqqB52JYNqlBEFEqTxslffUEYYZ5E4J2iojM2FUZSaMIigyE1TvrUv7X7+szK+eRWYLtbJLq4SYT31crbM4I4zmLB+78CAfPv0kuc1RAvPpIsNkGaMREaUMkaIGEai8sDE1jBvBCBiBzCrzWWSpCx0rBH3HA0baYxVa5YxREmnvR5WZsjOvyD2v0Qo9UzK87ZeZAnzid9TmkKYpGg3WNBxZyuh3Erq54f6jc7znyLs4NniK2lu29xP2SgERnBg6qZCYe/ZqBQkayS3cN4wM03ecXwa4O4WJb4UwonSsspDBIBU0grmnxL0wnSl4L9Du+fqeYo4EwjRSxYYkc1SNcH3dk7hIksD6Ts1h9V1OHzUMsqdIBbI8Q2O7sEffXtbMQsMaaBTe3BOsKLkFr4KPELS1rpnFeOWVgxpO9JW59F583ws0nYXqL4s+y0IVoioO2yoUK8UnETFgTQQiIQibO4Erty2Lw1+w0D+PsyO0rlG1xGiIGIIKmejbqnh1BG3jVaIyia1ihjb0FMHE9rOTiEZlfQqNRvpOyExr4zbk3knjWd4iMltHwVEERC3YezoqGEUFQgSxwq2tinP37bE3fpZB5130uyuEJif6LhoTojq8iaRE6miZRkdUISpYlNy2fvJxlou0XrIaUW29ocEw9m2y2lRw9xJftE0LvecP08ooEDXiUNDEgwOtIliLdUoolNAo+dAyrRt+9OouzfmGQX6Ndx1/nE7nKNPqGKFeJAao1KICzczUdRCmaomqJI0lk4jT1kCpaX0VAYcSVbGmNV8RBNfAMIVGFTszqiokMssMbQOp9hGD9fz++z/KZ//oP3L/yn3IpMRvRsJOgFIp79aEJrK+VfDsi7vsTKe8eed5crlMmt5C0gZNKhoJjNXRiCEaqMUQgIAwjYYdn7DlHbshYdsnjL2jiY5a7SzsoIltWASFykMdlDrEWWto800EooBHMC7F4CPn+sf5+CNP8qHzj6GmLXFkAmlb+JsiIkbY261548aUWmuaZpPErOPSKyT5HqZziHdTJkQOohCsYp1SG6jEUGKYBMPYt8d976ijxQdLoxZVoY6CimKMYm2rjI9CUMHOqlFQiCiqESezMtq5U3B+7QIf/vWnGfev839/+jw7GxNi00DWxpxohEZYXXO854Ll6ZMnWBwsMw5DVOao9QSlHqeJDh8dVWOpgqHwlqpJKEtBg5IZIZG22XWs0jeRVDx919BNPL0k0jHKMGmFLj1YgdyCk19K4lmbc8RI0RdevP0qd5+f42MPrfDPP/Qkn//xD7mzDpXWaA3kgkYl7zUkqXB1d4dumpC7kqB7WHaw3IZkiZoe++kc06JDowmTOlLGlKYyOBWGKfigVNYwtULXQoUhohgUkygHTWSQQjcxNEHf9oIBzNsThuAYe8Q6ZE5pTMlXr1znt7MF/uF7T/OMf53tOxFfR0xiGC565hcUcT3GJvDK9h16zpKIIbMWeJk86RDUMNc5RpM/wNiexschh5M+dZMiQWiC0E+EzEJjoDaGIjE0McfKFGciqVXKAJ0kkDjB69vDBFEEZp3bUQlqIjpnKCg4uXaSq9MN3p8vs7iYkYvhYDLGaM3cKNLv5ThrsU7AKthI4izDNCWzKapKYmF7+gYjexOTbnKQX8Cna5RjQygdlYFDEXILnUTop4IPisHRtRmZjeQh4iTSxLYvOGm9UEdwpvWGquIoQ9u6B5YogYhhMOpSl4E8G8B8pDdMsJ0p3b4n76SIMWASGg14NTgjGK3RGIlEYnQcm5vn7uE+efUSXVmhtiMmdU5Tt70zM8qUtt6PU1juGVIXmQbHQe3oOw8oZVS8Cplpv4sRQrzXNAVHHSEXJBrEGHyoKHQMJidxwtLSiP2mojMYMMgjzihJYsDWdJ1l4KBr2vFbtW1QIZbUdWSl12e6t8swuUKSnUGzmurQUY4jiTEYhASh6ds2IY2h6wxDY962tgDRKD4oHdPOweOm7TMADmMhicjQYTPoZCk3t3d5bGmRY/0+N4obnDmySuJqnKvJnSW3kDhDZsBqjUrEGEMmKTHUJMbgtMZEy0KeUxav8mCnT3riIa6EY2xvziF1hY0BlzhicIgk9FOoukLA0ERDEywxRlLbViIfwXuI2s5JUcGRA0PBJSlGImnqODjo8dzVl/ntB95Hp2w4DNfpdlJ6iSGxbfccZXPkEnEScGRYMhIs1qbgD3HiCKFhyTlCFhnEH2PiS4yOH+Oif5z1a+eoNpVoPWPNSVNDM3A0XiijY690kDZkNuI9bd5JO1K0I1KGSMSRt36PEqnrKbvjTRbn16hU+MbN7/P48lkeXjqBt1MSrRmliyTkhDAmNxmdJEHsNtNwHYk5mclJ0jkSKZkfZByWHlHHQYwUOsHX1zh+tGJ+/gqvvfRByvUU7wzBO8o6UjawVxnyXhfnhgQbSAjU9QFGoJsIhppbxStc37+OE2eQgcV1I01TcnCwTT9PSCtH1Hme27yIe2OPk/OrHDu5wm66T6z3yVxJaiGJKUe7D7HSeQ+NfZHEeAZpRm47vPH6VayD1bUj4IWlxHCYVOyYHofRc/6hn/HS+q+jTaQsPdOmR9EEsipyZf8O4/WL4As6NvLe93+EvpkQVfn+7b/jG7/4Mbc2Slw6qLFZRj1twEFDw9Wrlzh38Sbu6IjV3zzP3pd+yhW7zu6nPLY45MSJOdxU6XphNNjj//3NX/Had3L+1b/9JPPLl6jwPPeNA27fPI0xkaW1Vzn/a/MUoiANYf3b7PF7aHETm3wHf/chpr1TXH3zVarlBU6ePsves/+F3t1nMTZhsnSW/cd/gyzt8OrWRf7+1ee5fKNEVHFp+A2ag5+BmxBVqKsJ0/09PvT0Rzl69Bj/5j/9Kf/j3/0lX/rWl3jhv7/ABx55iu9//jkyyTh17CzPb+wxyN/Lv/ij3+XP/+Tf8+7HHqGuK5aWzvHEE0/xmc/8KSfPwPbtj3Bj4y2i85w99ji3X/8C6pVPnD7OJf81Ln6n4emHu2xeP+RS8SfktWM+TXj0Xe9jKyxQN4Y9t8UbWz/k1p0CVMl6Brd24p9y4/ZZHP+LJniaukbKCYcH+1w4/yiP9Y6RdHNsE/jH7/stLl+7xMef+hRzc3NcuvwLHnzfo7z08vOs37nG8vIqTz7xj7DG8dnP/TdOnjzBJ//JHzAZT1gYLfDGG7/gQx/8XS5fucgHz11gbe0+Xn/zdT7+ayf58P4Wi6unkGqH//C9H/DA8gLvPv0oewcTpq7k2vR/c3D3Ei9d2qCYRNKO4EvFuPku6eAJjHuYfs+3G8P9mtxlfO973+bTn/5zvvqVL3J07Tj9uQFbO5tYGyibgu//4FtE9ezv7lKVJQvzi5w4foJnvvR5imnFM898jofPP86ZM48wLjbo9IW8k2OdZW5xhVsbt7lx6xq+CiyvnMK5hM/+zRd5iB+S3/k6kxrmF0aEg3W+/NUv8Pc/ucn6RoHLDCYxNIcBF22C6wvF3tPEyS06wynSCfz84o+4fP0y19ff4q1LV5gfLhBdwj944in+6pkvcv7YMSbjQ3760x9yc/sKDx5eYGtvnb/94v9kONfH5EtcOPdBnn3uKxTFHmdOvIfD8Su88PPnWFpY45vf/jKf/MQ/Y2Vxmf/zg+9xUFR89IFTdIbLjPQGg9EC3W6fbz77FY4sHuFgY4rcb5DgMblQHwS0VOTCn93Wje2K/Z0p1f5bSPkLbH2I3zqAEdAvyJdyvC+JqSOWnt6xJfLYsDpKGSVbPHQKyo0NVpaWONi7iZg95hcM1968y8LiGsfWzrP1pnD29CKvT17gTjHi8iu7HHkl8Gq1S/jDfw0Hc9x64eeMllJ2vjbl/fOfo+q+i1vLC0T7U7bLESS/BKkZWgU+8Bd3dXcS2Nqasr/b0OwVcLCPqaaorzC5Qn+CJKCpIxkOId9h8eQd5oYTTq52ONHbYqUXKL0yzJfQeMC0XCd1DdEXxDpQakEvPMijx5/gNXOVy5fgm5//GatPfZSls4/x5iVl584iqXmdVFJu/t2PmH/gAuff+ypvvHWRnY0GcQp5K7jJLGpAPvaf72oRYH8aWN8o2NucEMsadndhOml7Nw6ylNkOAjpdGBYcfej7nD66w2jouW9Yk6cddn0HywhnKppwh9w29FykZy13Dy6zrI+xtnKCV4oDNs37uLrVITkwbG93me4k3L1VknSuMzca0ZTPI/ZFNq5OCYVCKpAo7LWjjzpwo05g6g25M4yLjGIaKEWQZAn182jdtJtUayB40AChhiJna+cRRgvfYNgPTJt9umlkLslYLw5J5ChOVih0D8uYqtpm1D/H/vQqx+ozDG2JFjcJnOVu3eFIZ8Bl33Bsecj21nkOt25hu3McFgt0BlMmxQxSnAJjRUMDQ4sbdRVXR2wlHJl31E0H33fYxBCCMh43GCJN0VCXDdoEaBIIFX4yYtyMqJvXqL3BN3uktmCUdJiEMUHPsFssMq4HdG2Pid9HjePa+BanRvfxo/IK8/kiYZDhJ4EnTvW5ersiDCOBRaoYyeQ2k8ltkmGkPlCY0OI9XuAw4BKBQRqJahhkhvuWU4wkeFUmtbK0kCDA/tizt18x3Z8SRSFEVMDHLplpUBLKpiQ3gRXrmZgpRdzHmvPcmKzQMyOslEyrMRvxNtqMeWTpfi5NdujPWw5szd7dIQ8fn2erb7i8CY4+NrmfaX4XwjpWIdRhNmMDFTgVgQjdBHw3kidQ1i0S0E1B1eJDu5kOCk0dqGoPqeCGFXP9mhADXWdwRpn6CT6WOJvTtw3G/JyV7pPcmIzommWQhjvVMjf2b3L/xg4Pr97HvIHYDxSdyItvTBjYnPNrAy5t1XTcCuPyCGW1A1K2G+IZYse0wY3Sin2fkMVAZg11Ji2OGZQQYVwL01ro5pZxFVFrW4QpVdJeyXyvIJdI9A0mEZxYmhjZrPaJkjDMUjrmZTLbZ7ucY15z+pqyo0MuVru89NoOUhu6ocNSssV7T53n51fBmciJhQG3pwWdzjKTSY7YKVS8Df4ighslFV3jEW1BqEpbvPOwMezWlqBC5Wd4TBSiAM4izhBDwmG9wIn5OYpqEyeObgJZKvRMQukj48pjk10G6WV2qj5b9TIDTZlPe4ynCwQrkBqKvYqLm1Nu3r7Kxx47x+t3UgbO4UyXTjKPVj1we0g3ooexzYOouE4CIpGgkKF0tIUJwXHYuHYXFKFq3kGWEYM2Cc24w53dU/Q6E9YyYeIP0VDTNA0mNQxTw7gOHHqloWYu32Ebx93xENs0ZJKSJQmdNGNEn6P5Elu7E158c4ezJ9a4sxeZT7vsT+fpDVY5vLGJZHWLVe23EJ1TpcUqpQVbmiDgWwjVzKB6H4QmRKIqRgySJGijhMMuOzeOUhQ5d5ZXONK/xvHeOkezQ7QuCBLppQOQEdPKoDEy56b056CuHRpBm4TrWxVxkmB2Bqx0RlS1Yzoek5g+ojlzdoFisMZhdx29XSNJhTnqCOsedw/pmgHYVNG2OKUavApNhNLr27h9llpCTIgC0UOYGsa3UoqdAeMTSzRLOZ30MkuJB23o2AyRDJPX9N11QnRMKthtUpqYsV8JkiekNuewzLm0MeZYf5XXr5U8cn9CEXOWOiOKapWduSNMmwLGh8TxFBkJrqV+2sp0UDuqYBgHx6F3hKDUYYb/J4bQEZwREifUtWlxzSYhREfYF3bdKllPmZ80LMx5YrHPQsdgqbEGemnDflPjsoBR2FeQVNgtLZNCsZ2Eam7E1Z3TZNUa48OSx84fYXVhwGh4gWgCr423UNMg+xFocM62lan0hsIbGgxj7wihTVwLZDOgtZsIVlpQK+YWHy1l5ZhMwRvFSiDGDodhlcO4y/G0wDcNvbyig6eJBk8gk0jHRpIkcCANdROZ7kCIDpPtMc1u0IQj1MUZvvvimFPHjvDw/av8zqMfYmXY5dmXv4DaAiqL61rwqmhop7wmghXFS4uAZU4ZpjPeQyCxgiaCD8K4NkRVau9QLL15pZtZnEtIjLCQOXYOCsZRQRyFVzpiqAqlIymZCtrUXN2esHkDfA02TwlVQhwfUJobZGGBl14f8dbVNR448yAPnT3P7//hHxPq63zmW3+NszOQtOuUfaskQIeAqiMapZcqqgYj0IR2jG2iUFaGzMGWKqUINlfm5iu6eWCYVBgjVJpxYt6xM6kAT9926KYjssEQATJT8+LNO3z37jahzIljQ9yJsFu0labnqfw+mCvs7v2EH7/Q5SfPp/zWp/+Yc+ce479++fM4EcXRAqyZRDyGOCMZytASc6mLdJzSRGG3FGp/byo3WIlYa0hzS5qkGNMhNQkTP2IDqOOUXt4hFYe186iu0OhRRFNSqVkaNMx3r7NZCxIMOo7gAadwGFpEq2dhziA0xMkB//Iv/oxu1uGGOWjLqI9tt1UVIkKc8VCJUYrGoFFQA7ulsDuFsoHKR2JsqaFOZlCTIE2GbZQyHqMXYJseY1OTS2TeGJLYJdf7MbqARZHoWMwHnBitsznaYe9q3tKbLkKh4Ew7QpcKBNQJ9LpsS8m2FojLW9oq0BIGYQZhq0ITDXWA1Cq1CnuFofaQJ61REivsTgN1HbFW0aTB2ganUBZH2M17JH4K2o4Fu0lgyTh6rCCakojSMZ65ZI0PnPw9qr2v8Gaxy2YZ0Ereqe0BUAMJrXLqkTxFPMSxxwktY5LMuNwmGurYjnuNCt63XO9cpvRSoQowrcAYQ2INVR2IEltWMTpi9BSTlOl0CRElaMRaT54pe6lhNVOO2IZEwKthtwqsjs7wm4//Af306/w4XmH3GtDQkmHOgMZ3yIEyokVAjcyMI+2dypu3qdFIO/84UQLt4wO9TqTywl5p0FQopmBbfhQfAk6hCY6ySKmqnDh7uEIMuKTC+xJfB0LtyPuBLKVlG2Nr5v5giXef+SB744KXJ+tM78osNGIbRnb2UIWz4A2EluB2mYX9CqrQdt9GLTG2m+epbzF5ZxUnkKaBoFB40zLwDqYWytjyvMEnVAIBJVSWGAUx7ZBoTCBGZTrJsU1NMvCMOkpiIgHDVGFhdJz3n/8ITfw6r/i71FuzECq1VeAeuy2xjWMMJjVtfbcCViKZCWQm0puRcCGCaMTEBqORxCiZUbqpkJhASoOzFjGKsR5RAwFCMMQoaBSiNzQhoaxTJrVjXELTxNkzFK3nvbZR082XuG/+AVZXc0xnNufEmSI+vpOk0UOo+P9cpsMHfTNLYgAAAABJRU5ErkJggg==" alt="Montescape logo" style="width:44px;height:44px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.35);flex-shrink:0;">
+  <div>
+    <h1>Montescape <span style="font-size: 13px; font-weight: 400; opacity: 0.8; margin-left: 6px;">by Ruth Grace Kingston</span></h1>
+    <div class="sub">Multi-Method Computational Framework for Spatial Movement Analysis with Sensitivity Analysis </div>  </div>
+</header>
+
+<nav id="tabs"></nav>
+
+<main>
+
+<!-- ===== Tab: Data ===== -->
+<section id="tab-data" class="active">
+  <fieldset>
+    <legend>Project</legend>
+    <label>Run name</label>
+    <small class="yaml-key">project.name</small>
+    <input type="text" data-key="project_name">
+    <label>Output directory (absolute path; outputs go to &lt;output_dir&gt;/&lt;run_id&gt;/)</label>
+    <small class="yaml-key">project.output_dir</small>
+    <input type="text" data-key="output_dir">
+    <details><summary>Load an existing YAML (optional)</summary>
+      <p class="help">Leave blank to build your config from scratch using this form. Or paste the absolute path to an existing YAML and click Load to populate every field below.</p>
+      <div class="row">
+        <div style="flex:5"><input type="text" data-key="load_yaml_path" placeholder="/absolute/path/to/existing/config.yml"></div>
+        <div style="flex:1"><button class="secondary" onclick="loadYamlFromField()">Load</button></div>
+      </div>
+    </details>
+    <div class="row">
+      <div><label>Random seed</label>
+        <small class="yaml-key">project.seed</small>
+        <input type="number" data-key="seed" min="0"></div>
+      <div><label>Grid resolution (m)</label>
+        <small class="yaml-key">grid.resolution_m</small>
+        <input type="number" data-key="resolution_m" min="1"></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Input data</legend>
+    <details><summary>What goes here?</summary>
+      <p><b>DEM</b> is the elevation raster used for slope, ruggedness, aspect, and DEM-derived layers.
+      <b>Sites</b> holds the named points used as Start/End of routes.
+      <b>Via-points</b> is optional and holds candidate intermediate points routes can pass through.
+      All three should share the same CRS.</p>
+    </details>
+    <label>DEM raster (.tif)</label>
+    <small class="yaml-key">data.dem_raster</small>
+    <input type="text" data-key="dem_raster" placeholder="/absolute/path/to/dem.tif">
+    <div class="row">
+      <div><label>Sites file (start/end candidates &mdash; .gpkg or .shp)</label>
+        <small class="yaml-key">data.sites_vector</small>
+        <input type="text" data-key="sites_vector" onchange="refreshSiteNames()"></div>
+      <div><label>Name column</label>
+        <small class="yaml-key">data.site_name_field</small>
+        <input type="text" data-key="site_name_field" onchange="refreshSiteNames()"></div>
+    </div>
+    <label>Waypoints file (optional, for constrained routes)</label>
+    <small class="yaml-key">data.passes_vector</small>
+    <input type="text" data-key="passes_vector" onchange="refreshPassNames()">
+    <p class="help" id="vector-status"></p>
+  </fieldset>
+</section>
+
+<!-- ===== Tab: Routes ===== -->
+<section id="tab-routes">
+  <fieldset>
+    <legend>Routes</legend>
+    <small class="yaml-key">endpoints (one entry per route)</small>
+    <details><summary>What is meant by route?</summary>
+      <p>A <b>route</b> is one independent experiment: a Start point, an End point, and optionally one or more
+      <b>waypoints</b> the path must pass through. Untick all waypoints to leave the route unconstrained.
+      Use the helper at the bottom if you want to compare many candidate waypoints: it adds one route per pick to the list below.</p>
+    </details>
+  </fieldset>
+
+  <fieldset>
+    <legend>Your routes</legend>
+    <div id="routes-container"></div>
+    <button class="secondary" onclick="addRoute()">+ Add route</button>
+    <button class="danger" onclick="clearAllRoutes()">Clear all routes</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Generate routes from waypoints</legend>
+    <p class="help">Same Start and End, one route per picked waypoint. Each new route is <b>appended</b>
+    to your existing list above.</p>
+    <div class="row">
+      <div><label>Start point</label>
+        <select id="qb_src"><option value=""></option></select></div>
+      <div><label>End point</label>
+        <select id="qb_grd"><option value=""></option></select></div>
+      <div><label>Buffer around endpoints (m)</label>
+        <input type="number" id="qb_buf" value="1000" step="100"></div>
+    </div>
+    <label>Waypoints (one new route per pick)</label>
+    <div id="qb_picks" class="waypoint-grid"></div>
+    <p style="margin-top:12px"><button class="action" onclick="quickBuildRoutes()">Append routes</button></p>
+  </fieldset>
+</section>
+
+<!-- ===== Tab: Friction ===== -->
+<section id="tab-friction">
+  <fieldset>
+    <legend>Friction surface settings</legend>
+    <details><summary>What is the friction surface?</summary>
+      <p>A <b>friction (resistance) surface</b> is a raster where each cell value represents the cost of moving
+      through that cell. It is the input to LCP, LCC, and Circuitscape. The framework always <i>builds</i> it
+      from a weighted combination of layers; Monte Carlo perturbs the weights, so a prebuilt friction surface
+      is not supported. All enabled layer weights must sum to 1.0.</p>
+    </details>
+    <label>Friction output filename</label>
+    <small class="yaml-key">friction.output_name</small>
+    <input type="text" data-key="friction_output_name">
+  </fieldset>
+
+  <!-- Slope -->
+  <fieldset>
+    <legend>Slope</legend>
+    <details><summary>Which slope method?</summary>
+      <p>Each cost function converts slope angle into a cost-of-movement value. Only <b>pandolf</b> has tunable physiology parameters  at the moment.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-friction="slope.enabled"><label>Enable slope</label>
+      <small class="yaml-key">friction.slope.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Weight (0&ndash;1)</label>
+        <small class="yaml-key">friction.slope.weight</small>
+        <input type="number" step="0.01" min="0" max="1" data-friction="slope.weight"></div>
+      <div><label>Method</label>
+        <small class="yaml-key">friction.slope.method</small>
+        <select data-friction="slope.method" onchange="renderState()">
+          <option>pandolf</option><option>tobler</option><option>tobler_offpath</option>
+          <option>minetti</option><option>herzog</option><option>llobera_sluckin</option>
+          <option>langmuir</option><option>irmischer_clarke</option>
+          <option>linear</option><option>exponential</option>
+        </select></div>
+    </div>
+    <div id="pandolf-block">
+      <p class="help"><b>Pandolf physiology parameters</b> (only used by the <code>pandolf</code> method):</p>
+      <div class="row">
+        <div><label>Body weight (kg)</label>
+          <small class="yaml-key">friction.slope.body_weight_kg</small>
+          <input type="number" step="1" data-friction="slope.body_weight_kg"></div>
+        <div><label>Load carried (kg)</label>
+          <small class="yaml-key">friction.slope.load_kg</small>
+          <input type="number" step="1" data-friction="slope.load_kg"></div>
+        <div><label>Terrain factor</label>
+          <small class="yaml-key">friction.slope.terrain_factor</small>
+          <input type="number" step="0.1" data-friction="slope.terrain_factor"></div>
+        <div><label>Base speed (m/s)</label>
+          <small class="yaml-key">friction.slope.speed_ms</small>
+          <input type="number" step="0.1" data-friction="slope.speed_ms"></div>
+      </div>
+      <p class="help">Terrain factor: 1.0 road, 1.2 dirt track, 1.5 sand or snow.</p>
+    </div>
+  </fieldset>
+
+  <!-- TRI -->
+  <fieldset>
+    <legend>Terrain ruggedness (TRI)</legend>
+    <details><summary>What is TRI?</summary>
+      <p><b>TRI</b> (Riley 1999) measures local variability in elevation. High TRI = rough, broken terrain.
+      Adding a small TRI weight (~0.05) penalises broken ground that pure slope misses.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-friction="tri.enabled"><label>Enable TRI</label>
+      <small class="yaml-key">friction.tri.enabled</small>
+    </div>
+    <label>Weight</label>
+    <small class="yaml-key">friction.tri.weight</small>
+    <input type="number" step="0.01" min="0" max="1" data-friction="tri.weight">
+  </fieldset>
+
+  <!-- Aspect -->
+  <fieldset>
+    <legend>Aspect (directional preference)</legend>
+    <details><summary>What is aspect?</summary>
+      <p>Each cell's <b>aspect</b> is the compass direction the slope faces. This layer penalises cells whose
+      aspect points away from your preferred direction (e.g. north-facing slopes if you prefer south-facing
+      for snow-melt reasons). 0&deg; = north, 90&deg; = east, 180&deg; = south, 270&deg; = west.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-friction="aspect.enabled"><label>Enable aspect</label>
+      <small class="yaml-key">friction.aspect.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Weight</label>
+        <small class="yaml-key">friction.aspect.weight</small>
+        <input type="number" step="0.01" min="0" max="1" data-friction="aspect.weight"></div>
+      <div><label>Preferred direction (degrees, 0=N)</label>
+        <small class="yaml-key">friction.aspect.preferred_direction</small>
+        <input type="number" min="0" max="359" step="10" data-friction="aspect.preferred_direction"></div>
+    </div>
+  </fieldset>
+
+  <!-- Vegetation -->
+  <fieldset>
+    <legend>Vegetation / land cover</legend>
+    <details><summary>How does the reclass work?</summary>
+      <p>The vegetation layer reads an integer-coded land-cover raster and reclassifies each code to a friction
+      value 1&ndash;10. Enter one mapping per line as <code>oldcode=newvalue</code>, e.g.
+      <code>1=1</code> for forest, <code>2=3</code> for shrub, <code>3=7</code> for bare rock.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-friction="vegetation.enabled"><label>Enable vegetation</label>
+      <small class="yaml-key">friction.vegetation.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Weight</label>
+        <small class="yaml-key">friction.vegetation.weight</small>
+        <input type="number" step="0.01" min="0" max="1" data-friction="vegetation.weight"></div>
+      <div><label>Raster path</label>
+        <small class="yaml-key">friction.vegetation.raster</small>
+        <input type="text" data-friction="vegetation.raster"></div>
+    </div>
+    <label>Reclass mapping (one <code>oldcode=newvalue</code> per line)</label>
+    <small class="yaml-key">friction.vegetation.reclass</small>
+    <textarea id="veg-reclass" oninput="updateVegReclass()" placeholder="1=1&#10;2=3&#10;3=7"></textarea>
+  </fieldset>
+
+  <!-- Hydrology -->
+  <fieldset>
+    <legend>Hydrology / rivers</legend>
+    <div class="checkbox-row">
+      <input type="checkbox" data-friction="hydrology.enabled"><label>Enable hydrology</label>
+      <small class="yaml-key">friction.hydrology.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Weight</label>
+        <small class="yaml-key">friction.hydrology.weight</small>
+        <input type="number" step="0.01" min="0" max="1" data-friction="hydrology.weight"></div>
+      <div><label>Raster path</label>
+        <small class="yaml-key">friction.hydrology.raster</small>
+        <input type="text" data-friction="hydrology.raster"></div>
+      <div><label>Crossing penalty (1&ndash;10)</label>
+        <small class="yaml-key">friction.hydrology.crossing_penalty</small>
+        <input type="number" min="1" max="10" data-friction="hydrology.crossing_penalty"></div>
+    </div>
+  </fieldset>
+
+  <!-- Custom layers -->
+  <fieldset>
+    <legend>Custom layers (user-written)</legend>
+    <details><summary>How do I add a custom layer?</summary>
+      <p>Write a Julia file that calls <code>register_layer!("my_layer", fn)</code> where <code>fn(dem, res, cfg)</code>
+      returns a <code>Matrix{Float32}</code> clipped to [0, 2]. Then add a row below with the absolute path to that
+      file and the same name you passed to <code>register_layer!</code>. One row per layer. The Hannibal case study
+      under <code>case_studies/hannibal/custom_layers/</code> ships three worked examples (elephant terrain, elephant
+      altitude, ambush risk).</p>
+    </details>
+    <small class="yaml-key">friction.custom_layers[] + friction.custom_layer_files (derived)</small>
+    <div id="custom-layers-container"></div>
+    <button class="secondary" onclick="addCustomLayer()">+ Add custom layer</button>
+  </fieldset>
+</section>
+
+<!-- ===== Tab: Analyses ===== -->
+<section id="tab-analyses">
+  <fieldset>
+    <legend>Least-Cost Path (LCP)</legend>
+    <details><summary>What is LCP?</summary>
+      <p>The single optimal route from Start to End that minimises accumulated cost across the friction
+      surface. One line per route. Pure-Julia Dijkstra implementation.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="lcp_enabled"><label>Run LCP</label>
+      <small class="yaml-key">lcp.enabled</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="lcp_knight"><label>Knight moves (smoother paths, slower)</label>
+      <small class="yaml-key">lcp.knight</small>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Least-Cost Corridor (LCC)</legend>
+    <details><summary>What is LCC?</summary>
+      <p>LCC identifies the <b>zone</b> of near-optimal paths within a threshold of the LCP cost (e.g. "all
+      routes within 5% of the optimum"). Output is a raster mask. Use it when the
+      single best path is not robust to small data errors.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="lcc_enabled"><label>Run LCC</label>
+      <small class="yaml-key">lcc.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Threshold method</label>
+        <small class="yaml-key">lcc.threshold.method</small>
+        <select data-key="lcc_threshold_method">
+          <option value="percent">percent (within X% of LCP cost)</option>
+          <option value="absolute">absolute (cost units)</option>
+        </select></div>
+      <div><label>Threshold value</label>
+        <small class="yaml-key">lcc.threshold.value</small>
+        <input type="number" step="0.5" min="0" data-key="lcc_threshold_value"></div>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="lcc_knight"><label>Knight moves</label>
+      <small class="yaml-key">lcc.knight</small>
+    </div>
+    <div class="checkbox-row">
+<!--      <input type="checkbox" data-key="lcc_export_vector"><label>Also export corridor as polygon (.gpkg)</label> disabled, will be patched in future update-->
+<!--      <small class="yaml-key">lcc.export_vector</small>-->
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Circuitscape (circuit theory)</legend>
+    <div style="background:var(--warn-bg);border-left:4px solid var(--warn-bdr);padding:10px 14px;border-radius:0 4px 4px 0;margin:8px 0;color:var(--warn);font-size:12.5px;line-height:1.5">
+      <b>⚠ Heavy computation.</b> Memory requirements scale rapidly with grid size; users should expect high memory usage (=10-100+ GB) for regional-scale rasters and enable HPC resources accordingly.
+    </div>
+    <details><summary>What is Circuitscape?</summary>
+      <p>Circuitscape treats the landscape as an electrical circuit and reports current flow through each cell.
+      <b>advanced</b> supports source + ground rasters (default for this pipeline); <b>pairwise</b> connects
+      all point pairs; <b>one-to-all</b> connects one focal point against all others.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_enabled"><label>Run Circuitscape</label>
+      <small class="yaml-key">circuitscape.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>Scenario</label>
+        <small class="yaml-key">circuitscape.scenario</small>
+        <select data-key="cs_scenario">
+          <option value="advanced">advanced</option>
+          <option value="pairwise">pairwise</option>
+          <option value="one-to-all">one-to-all</option>
+        </select></div>
+      <div><label>BLAS threads per Circuitscape call </label>
+        <small class="yaml-key">circuitscape.julia_threads</small>
+        <input type="number" min="1" data-key="cs_julia_threads"></div>
+    </div>
+   <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_four_neighbours"><label>Connect 4 neighbours only (no diagonals)</label>
+      <small class="yaml-key">circuitscape.connect_four_neighbors_only</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_avg_resistances"><label>Use average resistances</label>
+      <small class="yaml-key">circuitscape.use_average_resistances</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_unit_currents"><label>Use unit currents</label>
+      <small class="yaml-key">circuitscape.use_unit_currents</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_direct_grounds"><label>Use direct grounds</label>
+      <small class="yaml-key">circuitscape.use_direct_grounds</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_write_cur_maps"><label>Write current maps</label>
+      <small class="yaml-key">circuitscape.write_cur_maps</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_write_volt_maps"><label>Write voltage maps</label>
+      <small class="yaml-key">circuitscape.write_volt_maps</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="cs_log_transform"><label>Log-transform output maps</label>
+      <small class="yaml-key">circuitscape.log_transform_maps</small>
+    </div>
+  </fieldset>
+</section>
+
+<!-- ===== Tab: Monte Carlo ===== -->
+<section id="tab-mc">
+  <fieldset>
+    <legend>Monte Carlo ensemble</legend>
+    <details><summary>What does Monte Carlo do?</summary>
+      <p>Each iteration re-runs the entire pipeline with a freshly sampled friction-weight vector and
+      (optionally) a perturbed DEM consistent with the published vertical accuracy of your DEM product.
+      The result is a probability-of-use surface and confidence intervals,
+      not a single line.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="mc_enabled"><label>Enable Monte Carlo</label>
+      <small class="yaml-key">monte_carlo.enabled</small>
+    </div>
+    <div style="background:var(--warn-bg); border-left:4px solid var(--warn-bdr); padding:10px 14px; border-radius:0 4px 4px 0; margin:8px 0 14px 0; color:var(--warn); font-size:12.5px; line-height:1.5;">
+      <b>&#9888 </b> The time needed to produce aggregated results is influenced by the number of runs.
+    </div>
+    <div class="row">
+
+      <div><label>Number of runs</label>
+        <small class="yaml-key">monte_carlo.n_runs</small>
+        <input type="number" min="1" data-key="mc_runs"></div>
+      <div><label>Parallel workers</label>
+        <small class="yaml-key">monte_carlo.n_workers</small>
+        <input type="number" min="1" data-key="mc_workers"></div>
+      <div><label>Seed</label>
+        <small class="yaml-key">monte_carlo.seed</small>
+        <input type="number" min="0" data-key="mc_seed"></div>
+    </div>
+    <div class="row">
+      <div><label>Sampling method</label>
+        <small class="yaml-key">monte_carlo.sampling</small>
+        <select data-key="mc_sampling" onchange="renderState()">
+          <option value="dirichlet">dirichlet (cluster around base weights)</option>
+          <option value="latin_hypercube">latin_hypercube (stratified)</option>
+          <option value="random">random (uniform on simplex)</option>
+        </select></div>
+      <div id="dirichlet-block"><label>Dirichlet concentration</label>
+        <small class="yaml-key">monte_carlo.dirichlet_concentration</small>
+        <input type="number" step="1" min="1" data-key="mc_dirichlet_conc"></div>
+      <div id="lhs-block"><label>LHS spread (fraction of base weight)</label>
+        <small class="yaml-key">monte_carlo.lhs_spread</small>
+        <input type="number" step="0.05" min="0" data-key="mc_lhs_spread"></div>
+    </div>
+    <label>Analyses to repeat in MC</label>
+    <small class="yaml-key">monte_carlo.analyses</small>
+    <div class="checkbox-row"><input type="checkbox" data-mcana="lcp"><label>lcp</label></div>
+    <div class="checkbox-row"><input type="checkbox" data-mcana="lcc"><label>lcc</label></div>
+    <div class="checkbox-row"><input type="checkbox" data-mcana="circuitscape"><label>circuitscape <span style="color:var(--warn);font-weight:500">(heavy — see Analyses tab warning)</span></label></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>DEM-error perturbation</legend>
+    <details><summary>Which DEM are you using?</summary>
+      <p>Please fill in your DEM vertical RMSE and spatial correlation length manually.
+      Pre-filled profiles for common DEM products will be available in a future update.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="dem_err_enabled"><label>Perturb DEM</label>
+      <small class="yaml-key">monte_carlo.dem_error.enabled</small>
+    </div>
+    <div class="row">
+      <div><label>DEM name</label>
+        <small class="yaml-key">monte_carlo.dem_error.dem_profile</small>
+        <input type="text" data-key="dem_profile" placeholder="e.g. FABDEM, COP30, lidar"></div>
+      <div><label>Vertical sigma (m)</label>
+        <small class="yaml-key">monte_carlo.dem_error.error_m</small>
+        <input type="number" step="0.1" data-key="dem_err_m"></div>
+      <div><label>Correlation length (m)</label>
+        <small class="yaml-key">monte_carlo.dem_error.correlation_length_m</small>
+        <input type="number" step="10" data-key="dem_corr_len_m"></div>
+      <div><label>Method</label>
+        <small class="yaml-key">monte_carlo.dem_error.method</small>
+        <select data-key="dem_method">
+          <option value="smoothed_gaussian">smoothed_gaussian</option>
+          <option value="spectral">spectral</option>
+        </select></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Sensitivity analysis (Morris)</legend>
+    <details><summary>What is Morris sensitivity?</summary>
+      <p>The Morris elementary-effects method ranks each friction layer by how much it changes the output.
+      Use it to identify which layers actually matter for your study area. Trajectories = repetitions of the
+      one-at-a-time scan (10 is a reasonable minimum); levels = number of discrete weight levels per layer.</p>
+    </details>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="morris_enabled"><label>Run Morris sensitivity after MC</label>
+      <small class="yaml-key">monte_carlo.sensitivity.morris</small>
+    </div>
+    <p class="help">Tells you which friction
+    layer matters most in your study area.</p>
+    <div class="row">
+      <div><label>Trajectories</label>
+        <small class="yaml-key">monte_carlo.sensitivity.morris_trajectories</small>
+        <input type="number" min="1" data-key="morris_trajectories"></div>
+      <div><label>Levels</label>
+        <small class="yaml-key">monte_carlo.sensitivity.morris_levels</small>
+        <input type="number" min="2" data-key="morris_levels"></div>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Aggregation outputs</legend>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="agg_probability"><label>Probability-of-use surface</label>
+      <small class="yaml-key">monte_carlo.aggregate.probability_surface</small>
+    </div>
+    <div class="checkbox-row">
+      <input type="checkbox" data-key="agg_mean_current"><label>Mean current map (Circuitscape)</label>
+      <small class="yaml-key">monte_carlo.aggregate.mean_current</small>
+    </div>
+    <label>Confidence interval (%)</label>
+    <small class="yaml-key">monte_carlo.aggregate.confidence_interval</small>
+    <input type="number" min="50" max="99" data-key="agg_confidence">
+  </fieldset>
+
+  <fieldset>
+    <legend>Pass-crossing aggregation</legend>
+    <details><summary>How is this different from the route buffer?</summary>
+      <p>After MC finishes, the pipeline draws a circle of this radius around each candidate pass point and
+      counts how many iterations' least-cost paths enter it. This is <b>different from</b> the per-route
+      <code>buffer_m</code> on the Routes tab, which controls the size of the source/ground region
+      <i>before</i> path-finding runs.</p>
+    </details>
+    <label>Pass-crossing buffer (m)</label>
+    <small class="yaml-key">analysis.pass_buffer_m</small>
+    <input type="number" min="100" step="100" data-key="pass_buffer_m">
+  </fieldset>
+</section>
+
+<!-- ===== Tab: HPC ===== -->
+<section id="tab-hpc">
+  <fieldset>
+    <legend>SLURM resources</legend>
+    <p class="help"><b>Only fill these in if you plan to submit via SLURM.</b> </p>
+    <div class="row">
+      <div><label>HPC user</label><input type="text" data-key="hpc_user"></div>
+      <div><label>HPC host</label><input type="text" data-key="hpc_host"></div>
+    </div>
+    <div class="row">
+      <div><label>CPUs per task</label><input type="number" min="1" data-key="cpus"></div>
+      <div><label>Memory (GB)</label><input type="number" min="1" data-key="mem_gb"></div>
+      <div><label>Walltime (HH:MM:SS)</label><input type="text" data-key="walltime"></div>
+    </div>
+    <div class="row">
+      <div><label>Partition (optional)</label><input type="text" data-key="partition"></div>
+      <div><label>Account (optional)</label><input type="text" data-key="account"></div>
+    </div>
+    <label>Scratch base path</label>
+    <input type="text" data-key="scratch_base">
+  </fieldset>
+
+
+  <fieldset>
+    <legend>Generate batch artefacts</legend>
+    <p class="help"><b>Make SLURM script</b> writes only a <code>.sbatch</code> next to your YAML. Use when the cluster already has the code and inputs.<br><b>Generate run package</b> bundles the YAML, the package source, your input rasters/vectors and the custom layer files into one folder. One <code>scp -r</code> and you can <code>sbatch</code>. Use when sending to a new cluster.</p>
+    <p>
+      <button class="secondary" onclick="makeSlurm()">Make SLURM script</button>
+      <button class="secondary" onclick="generatePackage()">Generate run package</button>
+    </p>
+  </fieldset>
+
+
+<!-- ===== Tab: Post-processing (optional) ===== -->
+</section><section id="tab-synthesis">
+  <fieldset>
+    <legend>This tab is optional</legend>
+    <p class="help"><b>You only need this if you have already finished one or more Monte Carlo runs and want
+    to compare them.</b> Nothing here re-runs the pipeline; both tools below read existing run outputs and
+    write new synthesis artefacts. Skip this tab entirely for a single one-off analysis.</p>
+  </fieldset>
+  <fieldset>
+    <legend>Cross-run pass-frequency matrix</legend>
+    <p class="help">Point at the parent folder that contains your finished run directories (each must have a
+    <code>monte_carlo/aggregated/</code> subfolder). Produces a CSV matrix + heatmap PNG showing which passes
+    each scenario crossed.</p>
+    <label>Parent folder of completed runs</label>
+    <input type="text" data-key="synthesis_parent" onchange="refreshDiscoveredRuns()">
+    <label>Output directory for synthesis results</label>
+    <input type="text" data-key="synthesis_out_dir">
+    <p style="margin-top:12px">
+    <button class="action" onclick="runSynthesisMatrix()">Build cross-run pass-frequency matrix</button>
+  </fieldset>
+<!-- This feature was not yielding the desired results in this prototype. The concept will be implemented in a future patch -->
+  <fieldset disabled>
+    <legend><s>Pairwise difference (B &minus; A)</s></legend>
+    <div style="background:var(--warn-bg); border-left:4px solid var(--warn-bdr); padding:10px 14px; border-radius:0 4px 4px 0; margin:8px 0 14px 0; color:var(--warn); font-size:12.5px; line-height:1.5;">
+      <b>&#9888 </b> Temporarily disabled! This feature will be implemented in a future patch (design & guideline in development).
+    </div>
+
+    <p class="help">Pick exactly two completed runs and an endpoint they share. The result is a GeoTIFF
+    of where corridor B differs from corridor A, plus a bottleneck report.</p>
+    <div class="row">
+      <div><label>Scenario A (baseline)</label>
+        <select data-key="scenario_a" id="scenario-a-select" onchange="refreshSharedEndpoints()"></select></div>
+      <div><label>Scenario B (experimental)</label>
+        <select data-key="scenario_b" id="scenario-b-select" onchange="refreshSharedEndpoints()"></select></div>
+    </div>
+    <label>Endpoint to compare</label>
+    <select data-key="scenario_endpoint" id="scenario-ep-select"></select>
+    <p style="margin-top:12px"><button class="action" onclick="runSynthesisDiff()">Generate difference report</button></p>
+  </fieldset>
+</section>
+
+</main>
+
+<!-- ============ Always-visible footer ============ -->
+<div id="footer">
+  <div class="toprow">
+    <div id="weight-sum">Friction weights: &hellip;</div>
+    <button class="secondary" id="btn-save" onclick="saveYaml()">Save YAML</button>
+    <button class="action" id="btn-run" onclick="runNow()" style="font-size:15px;padding:10px 28px;font-weight:600">▶ RUN</button>
+    <div id="status-line">Ready. RUN uses current form (auto-saves a temp YAML). Click Save YAML first if you want to keep it.</div>
+  </div>
+  <div id="issues" class="ok">No problems detected.</div>
+  <details><summary>Live YAML preview</summary>
+    <div id="yaml-preview">(loading&hellip;)</div>
+  </details>
+</div>
+
+<script>
+// ============ Tab system ============
+const TABS = [
+  ["tab-data",      "1. Data"],
+  ["tab-routes",    "2. Routes"],
+  ["tab-friction",  "3. Friction"],
+  ["tab-analyses",  "4. Analyses"],
+  ["tab-mc",        "5. Monte Carlo"],
+  ["tab-hpc",       "6. HPC"],
+  ["tab-synthesis", "7. Post-processing (optional)"],
+];
+function buildTabs() {
+  const nav = document.getElementById("tabs");
+  TABS.forEach(([id, label], i) => {
+    const b = document.createElement("button");
+    b.textContent = label;
+    if (i === 0) b.classList.add("active");
+    b.onclick = () => {
+      document.querySelectorAll("nav button").forEach(x => x.classList.remove("active"));
+      document.querySelectorAll("main section").forEach(x => x.classList.remove("active"));
+      b.classList.add("active");
+      document.getElementById(id).classList.add("active");
+    };
+    nav.appendChild(b);
+  });
+}
+
+// ============ HTTP helpers ============
+async function api(path, body) {
+  const opts = body === undefined ? { method: "GET" } :
+    { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body) };
+  const r = await fetch(path, opts);
+  return await r.json();
+}
+function status(msg, isErr = false) {
+  const el = document.getElementById("status-line");
+  el.textContent = msg;
+  el.className = isErr ? "err" : "";
+}
+
+// ============ State ============
+let STATE = {};
+let SITE_NAMES = [];
+let PASS_NAMES = [];
+
+<!-- NOT ENABLED - this will be populated in future patch
+  const DEM_PROFILES = {
+  FABDEM:      [null, null],
+  SRTM_1arc:   [null, null],
+  SRTM_3arc:   [null, null],
+  ASTER_GDEM3: [null, null],
+  MERIT:       [null, null],
+  COP30:       [null, null],
+  lidar:       [null, null],
+  custom:      [null, null],
+};
+--> 
+
+// ============ Render STATE -> form ============
+function renderState() {
+  document.querySelectorAll("[data-key]").forEach(el => {
+    const key = el.dataset.key;
+    if (el.type === "checkbox") el.checked = !!STATE[key];
+    else el.value = STATE[key] ?? "";
+  });
+  document.querySelectorAll("[data-friction]").forEach(el => {
+    const [layer, field] = el.dataset.friction.split(".");
+    const v = STATE.friction?.[layer]?.[field];
+    if (el.type === "checkbox") el.checked = !!v;
+    else el.value = v ?? "";
+  });
+  document.querySelectorAll("[data-mcana]").forEach(el => {
+    el.checked = (STATE.mc_analyses || []).includes(el.dataset.mcana);
+  });
+  document.getElementById("pandolf-block").style.display =
+    (STATE.friction?.slope?.method === "pandolf") ? "" : "none";
+  document.getElementById("dirichlet-block").style.display =
+    STATE.mc_sampling === "dirichlet" ? "" : "none";
+  document.getElementById("lhs-block").style.display =
+    STATE.mc_sampling === "latin_hypercube" ? "" : "none";
+  const veg = STATE.friction?.vegetation?.reclass || {};
+  document.getElementById("veg-reclass").value =
+    Object.entries(veg).map(([k, v]) => `${k}=${v}`).join("\n");
+  renderRoutes();
+  renderCustomLayers();
+  refreshFooter();
+}
+
+// ============ Routes ============
+function renderRoutes() {
+  const c = document.getElementById("routes-container");
+  c.innerHTML = "";
+  (STATE.endpoints || []).forEach((ep, i) => {
+    const box = document.createElement("div");
+    box.className = "route-box";
+    box.innerHTML = `
+      <h4>Route ${i + 1}</h4>
+      <label>Name</label>
+      <input type="text" value="${ep.name || ""}"
+             oninput="updateRoute(${i}, 'name', this.value)">
+      <div class="row">
+        <div><label>Start</label>${renderPointSelect(ep.source_name, SITE_NAMES, `updateRoute(${i}, 'source_name', this.value)`)}</div>
+        <div><label>End</label>${renderPointSelect(ep.ground_name, SITE_NAMES, `updateRoute(${i}, 'ground_name', this.value)`)}</div>
+        <div><label>Buffer (m)</label>
+          <input type="number" step="100" value="${ep.buffer_m || 1000}"
+                 oninput="updateRoute(${i}, 'buffer_m', Number(this.value))"></div>
+      </div>
+      <label>Via-points</label>
+      ${renderWaypointPicker(i, ep.waypoints || [])}
+      <p style="margin-top:10px"><button class="danger" onclick="removeRoute(${i})">Remove route</button></p>`;
+    c.appendChild(box);
+  });
+}
+function renderPointSelect(current, choices, handler) {
+  if (!choices || choices.length === 0) {
+    return `<input type="text" value="${current || ""}" oninput="${handler}" placeholder="(set sites file on Data tab)">`;
+  }
+  const opts = ["", ...choices].map(n =>
+    `<option value="${n}" ${n === current ? "selected" : ""}>${n || "(pick one)"}</option>`).join("");
+  return `<select onchange="${handler}">${opts}</select>`;
+}
+function renderWaypointPicker(i, current) {
+  if (!PASS_NAMES || PASS_NAMES.length === 0) {
+    return `<input type="text" value="${current.join(",")}"
+            oninput="updateRouteWaypoints(${i}, this.value)"
+            placeholder="(set Waypoints file on Data tab to get checkboxes; or type names comma-separated)">`;
+  }
+  const boxes = PASS_NAMES.map(n => `
+    <label>
+      <input type="checkbox" value="${n}" ${current.includes(n) ? "checked" : ""}
+             onchange="toggleRouteWaypoint(${i}, '${n.replace(/'/g, "\\'")}', this.checked)">
+      ${n}
+    </label>`).join("");
+  return `<div class="waypoint-grid">${boxes}</div>`;
+}
+function updateRoute(i, field, value) {
+  STATE.endpoints[i][field] = value;
+  pushState({ endpoints: STATE.endpoints });
+}
+function updateRouteWaypoints(i, csv) {
+  STATE.endpoints[i].waypoints = csv.split(",").map(s => s.trim()).filter(Boolean);
+  pushState({ endpoints: STATE.endpoints });
+}
+function toggleRouteWaypoint(i, name, isOn) {
+  const cur = new Set(STATE.endpoints[i].waypoints || []);
+  if (isOn) cur.add(name); else cur.delete(name);
+  STATE.endpoints[i].waypoints = Array.from(cur);
+  pushState({ endpoints: STATE.endpoints });
+}
+function addRoute() {
+  const n = STATE.endpoints.length;
+  STATE.endpoints.push({
+    name: `route_${n + 1}`, source_name: "", ground_name: "",
+    buffer_m: 1000, waypoints: []
+  });
+  pushState({ endpoints: STATE.endpoints }).then(renderRoutes);
+}
+function removeRoute(i) {
+  STATE.endpoints.splice(i, 1);
+  pushState({ endpoints: STATE.endpoints }).then(renderRoutes);
+}
+function clearAllRoutes() {
+  if (!confirm("Remove all routes? Validation will then complain until you add at least one.")) return;
+  STATE.endpoints = [];
+  pushState({ endpoints: STATE.endpoints }).then(renderRoutes);
+}
+function quickBuildRoutes() {
+  const src = document.getElementById("qb_src").value;
+  const grd = document.getElementById("qb_grd").value;
+  const buf = Number(document.getElementById("qb_buf").value || 1000);
+  const picks = Array.from(document.querySelectorAll("#qb_picks input[type=checkbox]:checked")).map(c => c.value);
+  if (!src || !grd || picks.length === 0) {
+    status("Need Start, End and at least one waypoint to generate routes.", true); return;
+  }
+  for (const p of picks) {
+    STATE.endpoints.push({
+      name: `${src}_to_${grd}_via_${p}`,
+      source_name: src, ground_name: grd,
+      buffer_m: buf, waypoints: [p]
+    });
+  }
+  document.querySelectorAll("#qb_picks input[type=checkbox]").forEach(c => c.checked = false);
+  pushState({ endpoints: STATE.endpoints }).then(() => {
+    renderRoutes(); status(`Appended ${picks.length} routes.`);
+  });
+}
+
+// ============ Custom layers ============
+function renderCustomLayers() {
+  const c = document.getElementById("custom-layers-container");
+  c.innerHTML = "";
+  (STATE.friction.custom_layers || []).forEach((l, i) => {
+    const box = document.createElement("div");
+    box.className = "route-box";
+    box.innerHTML = `
+      <h4>Custom layer ${i + 1}</h4>
+      <label>Julia file path (must call <code>register_layer!</code>)</label>
+      <input type="text" value="${l.file_path || ""}"
+             oninput="updateCustomLayer(${i}, 'file_path', this.value); inspectLayerFile(${i})"
+             placeholder="/abs/path/to/my_layer.jl">
+      <div id="layer-detect-${i}" class="help"></div>
+      <div class="row">
+        <div><label>Layer name (must match the string passed to register_layer!)</label>
+          <input type="text" value="${l.name || ""}"
+                 oninput="updateCustomLayer(${i}, 'name', this.value); inspectLayerFile(${i})"
+                 placeholder="my_layer"
+                 id="layer-name-${i}"></div>
+        <div><label>Weight (0&ndash;1)</label>
+          <input type="number" step="0.01" min="0" max="1" value="${l.weight ?? 0}"
+                 oninput="updateCustomLayer(${i}, 'weight', Number(this.value))"></div>
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" ${l.enabled ? "checked" : ""}
+               onchange="updateCustomLayer(${i}, 'enabled', this.checked)">
+        <label>Enabled</label>
+      </div>
+      <label>Description (free text, optional)</label>
+      <input type="text" value="${l.description || ""}"
+             oninput="updateCustomLayer(${i}, 'description', this.value)">
+      <p style="margin-top:10px"><button class="danger" onclick="removeCustomLayer(${i})">Remove this layer</button></p>`;
+    c.appendChild(box);
+    inspectLayerFile(i);
+  });
+}
+
+async function inspectLayerFile(i) {
+  const layer = STATE.friction.custom_layers[i];
+  const statusEl = document.getElementById(`layer-detect-${i}`);
+  if (!layer || !statusEl) return;
+  const fp = layer.file_path || "";
+  if (!fp) { statusEl.textContent = ""; return; }
+  const r = await api("/api/inspect_layer_file", { path: fp });
+  if (!r.exists) {
+    statusEl.innerHTML = `<span style="color:var(--warn)">File not found.</span>`;
+    return;
+  }
+  const names = r.names || [];
+  if (names.length === 0) {
+    statusEl.innerHTML = `<span style="color:var(--warn)">File found, but no register_layer!("name", ...) calls detected.</span>`;
+    return;
+  }
+  const typed = (layer.name || "").trim();
+  const match = names.includes(typed);
+  const buttons = names.map(n =>
+    `<button class="secondary" style="padding:2px 8px;font-size:11px;margin-right:4px"
+             onclick="setLayerName(${i}, '${n.replace(/'/g, "\\'")}')">${n}</button>`).join("");
+  statusEl.innerHTML = (typed && match
+    ? `<span style="color:var(--ok)">\u2713 name matches.</span> `
+    : (typed
+      ? `<span style="color:var(--warn)">\u2717 name '${typed}' not registered by this file.</span> `
+      : ``))
+    + `File registers: ${buttons}`;
+}
+function setLayerName(i, name) {
+  STATE.friction.custom_layers[i].name = name;
+  document.getElementById(`layer-name-${i}`).value = name;
+  pushState({ friction: STATE.friction }).then(() => inspectLayerFile(i));
+}
+function updateCustomLayer(i, field, value) {
+  STATE.friction.custom_layers[i][field] = value;
+  pushState({ friction: STATE.friction });
+}
+function addCustomLayer() {
+  STATE.friction.custom_layers.push({
+    file_path: "", name: "", enabled: true, weight: 0.0, description: ""
+  });
+  pushState({ friction: STATE.friction }).then(renderCustomLayers);
+}
+function removeCustomLayer(i) {
+  STATE.friction.custom_layers.splice(i, 1);
+  pushState({ friction: STATE.friction }).then(renderCustomLayers);
+}
+function updateVegReclass() {
+  const text = document.getElementById("veg-reclass").value;
+  const obj = {};
+  for (const line of text.split("\n")) {
+    const m = line.match(/^\s*(-?\d+)\s*=\s*(-?\d+(\.\d+)?)\s*$/);
+    if (m) obj[m[1]] = Number(m[2]);
+  }
+  STATE.friction.vegetation.reclass = obj;
+  pushState({ friction: STATE.friction });
+}
+
+// ============ Generic input wiring ============
+document.addEventListener("input", e => {
+  const t = e.target;
+  if (t.dataset.key) {
+    let v = t.type === "checkbox" ? t.checked
+          : t.type === "number" ? Number(t.value) : t.value;
+    STATE[t.dataset.key] = v;
+    pushState({ [t.dataset.key]: v });
+  } else if (t.dataset.friction) {
+    const [layer, field] = t.dataset.friction.split(".");
+    let v = t.type === "checkbox" ? t.checked
+          : t.type === "number" ? Number(t.value) : t.value;
+    if (!STATE.friction[layer]) STATE.friction[layer] = {};
+    STATE.friction[layer][field] = v;
+    pushState({ friction: STATE.friction });
+  } else if (t.dataset.mcana) {
+    let set = new Set(STATE.mc_analyses || []);
+    if (t.checked) set.add(t.dataset.mcana); else set.delete(t.dataset.mcana);
+    STATE.mc_analyses = Array.from(set);
+    pushState({ mc_analyses: STATE.mc_analyses });
+  }
+});
+
+async function pushState(patch) {
+  const r = await api("/api/state", patch);
+  if (r.weight_sum !== undefined) refreshFooter(r.weight_sum, r.issues);
+  return r;
+}
+
+// ============ Footer ============
+async function refreshFooter(weightSum, issues) {
+  if (weightSum === undefined || issues === undefined) {
+    const r = await api("/api/validate");
+    weightSum = r.weight_sum; issues = r.issues;
+  }
+  const wbox = document.getElementById("weight-sum");
+  const ok = Math.abs(weightSum - 1.0) < 0.01;
+  wbox.textContent = `Friction weights sum: ${Number(weightSum).toFixed(3)}` +
+                     (ok ? " \u2713" : " (must be 1.00)");
+  wbox.classList.toggle("ok", ok);
+  const ibox = document.getElementById("issues");
+  if (issues && issues.length > 0) {
+    ibox.textContent = "Problems to fix:\n  - " + issues.join("\n  - ");
+    ibox.classList.remove("ok");
+  } else {
+    ibox.textContent = "No problems detected. Ready to save / run.";
+    ibox.classList.add("ok");
+  }
+  const ready = ok && (!issues || issues.length === 0);
+  document.getElementById("btn-run").disabled = !ready;
+  const yp = await api("/api/preview_yaml");
+  document.getElementById("yaml-preview").textContent = yp.yaml || yp.error || "";
+}
+
+// ============ Vector names ============
+async function refreshSiteNames() {
+  const path = STATE.sites_vector;
+  const field = STATE.site_name_field || "name";
+  if (!path) { SITE_NAMES = []; renderRoutes(); refreshQuickBuild(); return; }
+  const r = await api("/api/list_vector_names", { path, field });
+  SITE_NAMES = r.names || [];
+  document.getElementById("vector-status").textContent =
+    SITE_NAMES.length > 0
+      ? `Sites readable: ${SITE_NAMES.length} named points.`
+      : `Sites file not readable yet. You can still type names.`;
+  renderRoutes(); refreshQuickBuild();
+}
+async function refreshPassNames() {
+  const path = STATE.passes_vector;
+  if (!path) { PASS_NAMES = []; renderRoutes(); refreshQuickBuild(); return; }
+  const r = await api("/api/list_vector_names", { path, field: "name" });
+  PASS_NAMES = r.names || [];
+  renderRoutes(); refreshQuickBuild();
+}
+function refreshQuickBuild() {
+  const fillSelect = (id, names) => {
+    const sel = document.getElementById(id);
+    const cur = sel.value;
+    sel.innerHTML = `<option value=""></option>` +
+                    names.map(n => `<option value="${n}">${n}</option>`).join("");
+    sel.value = cur;
+  };
+  fillSelect("qb_src", SITE_NAMES);
+  fillSelect("qb_grd", SITE_NAMES);
+  const grid = document.getElementById("qb_picks");
+  if (!PASS_NAMES || PASS_NAMES.length === 0) {
+    grid.innerHTML = `<div class="empty">Set a Waypoints file on the Data tab to see options here.</div>`;
+  } else {
+    grid.innerHTML = PASS_NAMES.map(n => `
+      <label><input type="checkbox" value="${n}"> ${n}</label>`).join("");
+  }
+}
+
+<!--  Part of Future PATCH - DISABLED
+// ============ DEM presets ============
+function applyDemProfilePreset() {
+  const profile = document.querySelector('[data-key="dem_profile"]').value;
+  const [err, corr] = DEM_PROFILES[profile] || [null, null];
+  if (err !== null) {
+    STATE.dem_err_m = err; STATE.dem_corr_len_m = corr;
+    document.querySelector('[data-key="dem_err_m"]').value = err;
+    document.querySelector('[data-key="dem_corr_len_m"]').value = corr;
+    pushState({ dem_err_m: err, dem_corr_len_m: corr, dem_profile: profile });
+  } else {
+    pushState({ dem_profile: profile });
+  }
+}
+-->
+
+// ============ Actions ============
+async function loadYamlFromField() {
+  const path = (STATE.load_yaml_path || "").trim();
+  if (!path) { status("Enter a YAML path first.", true); return; }
+  status(`Loading ${path}\u2026`);
+  const r = await api("/api/load_yaml", { path });
+  if (r.ok) {
+    STATE = r.state;
+    await refreshSiteNames(); await refreshPassNames();
+    renderState(); status(`Loaded ${path}`);
+  } else status(`Load failed: ${r.error}`, true);
+}
+async function generatePackage() {
+  status("Generating run package\u2026");
+  const r = await api("/api/generate_package", {});
+  if (r.ok) status(`Run package: ${r.path}`);
+  else status(`Run package failed: ${r.error}`, true);
+}
+async function watchHpcJob() {
+  const remote = (document.getElementById("watch-remote-dir").value || "").trim();
+  const body = remote ? { remote_dir: remote } : {};
+  status("Opening terminal to watch HPC logs\u2026");
+  const r = await api("/api/watch_hpc_job", body);
+  if (r.ok) status(`Watching: ${r.command}`);
+  else status(`Watch failed: ${r.error}`, true);
+}
+async function saveYaml() {
+  const def = (STATE.output_dir || ".") + "/" + (STATE.project_name || "config") + ".yml";
+  const path = prompt("Save YAML as:", def);
+  if (!path) return;
+  const r = await api("/api/save_yaml", { path });
+  if (r.ok) status(`Saved ${r.path}`);
+  else status(`Save failed: ${r.error}`, true);
+}
+async function runNow() {
+  status("Launching pipeline in new terminal\u2026");
+  const r = await api("/api/run_local", {});
+  if (r.ok) status(`${r.message} (config: ${r.config_path})`);
+  else status(`Run failed: ${r.error}`, true);
+}
+async function makeSlurm() {
+  status("Writing SLURM script\u2026");
+  const r = await api("/api/make_slurm", {});
+  if (r.ok) status(`${r.message}  (yaml: ${r.yaml_path}, sbatch: ${r.sbatch_path})`);
+  else status(`SLURM script failed: ${r.error}`, true);
+}
+
+// ============ Synthesis ============
+async function refreshDiscoveredRuns() {
+  const r = await api("/api/discover_runs", { parent: STATE.synthesis_parent });
+  const runs = r.runs || [];
+  for (const id of ["scenario-a-select", "scenario-b-select"]) {
+    const sel = document.getElementById(id);
+    const cur = sel.value;
+    sel.innerHTML = `<option value=""></option>` +
+      runs.map(r => `<option value="${r}">${r}</option>`).join("");
+    sel.value = cur;
+  }
+}
+async function refreshSharedEndpoints() {
+  const a = document.getElementById("scenario-a-select").value;
+  const b = document.getElementById("scenario-b-select").value;
+  STATE.scenario_a = a; STATE.scenario_b = b;
+  pushState({ scenario_a: a, scenario_b: b });
+  if (!a || !b) return;
+  const r = await api("/api/shared_endpoints", { a, b });
+  const sel = document.getElementById("scenario-ep-select");
+  sel.innerHTML = `<option value=""></option>` +
+    (r.endpoints || []).map(e => `<option value="${e}">${e}</option>`).join("");
+}
+async function runSynthesisMatrix() {
+  const r = await api("/api/synthesis_matrix", {});
+  if (r.ok) status(r.message); else status(`Matrix failed: ${r.error}`, true);
+}
+async function runSynthesisDiff() {
+  const r = await api("/api/synthesis_diff", {});
+  if (r.ok) status(`Diff: ${r.message}`); else status(`Diff failed: ${r.error}`, true);
+}
+
+// ============ Boot ============
+(async function init() {
+  buildTabs();
+  const r = await api("/api/state");
+  STATE = r.state;
+  await refreshSiteNames();
+  await refreshPassNames();
+  renderState();
+  status("Ready. Build your YAML, then Save / Run / Generate package.");
+})();
+</script>
+</body>
+</html>

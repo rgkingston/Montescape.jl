@@ -1,0 +1,94 @@
+# Minimal generic example template
+
+project:
+  name: example_run
+  output_dir: ./outputs
+  run_id: auto
+  seed: 42
+
+analysis:
+  pass_buffer_m: 1000.0
+
+data:
+  dem_raster: /path/to/your/dem.tif
+  sites_vector: /path/to/your/sites.gpkg
+  site_name_field: name
+  passes_vector: null      # optional via-points
+
+grid:
+  resolution_m: 30
+  snap_to: dem
+
+endpoints:
+  - name: A_to_B
+    source_name: A
+    ground_name: B
+    buffer_m: 500
+    waypoints: []
+
+friction:
+  output_name: friction_surface.tif
+  mode: build              # build - as building new friction surfaces is part of the MC runs, prebuilt has been disabled. In a future patch the option will be activated for single LCP/LCC/CS analysis
+  prebuilt_path: null
+  custom_layer_files: []   # paths to .jl files registering custom layers
+  slope:
+    enabled: true
+    method: tobler         # see docs for all available functions
+    weight: 0.7
+  tri:
+    enabled: true
+    weight: 0.3
+  aspect:
+    enabled: false
+    weight: 0.0
+    preferred_direction: 180
+  vegetation:
+    enabled: false
+    weight: 0.0
+  hydrology:
+    enabled: false
+    weight: 0.0
+  custom_layers: []
+
+lcp:
+  enabled: true
+  knight: true             # allow knight (2,1) moves for smoother paths
+
+lcc:
+  enabled: true
+  threshold:
+    method: percent        # percent | absolute
+    value: 5.0
+  export_vector: true
+
+circuitscape:
+  enabled: true
+  scenario: advanced
+  julia_threads: 4
+  connect_four_neighbors_only: false
+  use_average_resistances: true
+  use_unit_currents: true
+  use_direct_grounds: true
+  write_cur_maps: true
+  write_volt_maps: false
+  log_transform_maps: false
+
+monte_carlo:
+  enabled: false
+  n_runs: 100
+  n_workers: 4
+  sampling: dirichlet      # dirichlet | latin_hypercube | random
+  dirichlet_concentration: 6.0
+  seed: 42
+  dem_error:
+    enabled: true
+    dem_profile: 
+    error_m: 6.0
+    correlation_length_m: 250.0
+    method: smoothed_gaussian
+  vary_weights: {}         # auto-populated from enabled layers
+  analyses: [lcp, lcc, circuitscape]
+  aggregate:
+    probability_surface: true
+    mean_current: true
+    confidence_interval: 0.95

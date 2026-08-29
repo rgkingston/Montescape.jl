@@ -1,0 +1,52 @@
+name = "MovementFramework"
+uuid = "7b9d3f1c-6e5a-4b2e-8a91-2a0c5f7d8e10"
+authors = ["Movement Framework Contributors"]
+version = "0.2.0"
+
+[deps]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Circuitscape = "2b7a1792-8151-5239-925d-e2b8fdfa3201"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+[compat]
+ArchGDAL = "0.10"
+CSV = "0.10"
+Circuitscape = "5"
+Colors = "0.12, 0.13"
+DataFrames = "1"
+DataStructures = "0.18"
+Distributions = "0.25"
+FFTW = "1"
+HTTP = "1"
+JSON = "0.21"
+Plots = "1"
+ProgressMeter = "1"
+YAML = "0.4"
+julia = "1.10"
+
+[extras]
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

@@ -26,6 +26,8 @@ Download the installer for your OS from the project Releases page and run it. Th
 
 Launch the app. A terminal window appears (the Julia HTTP server) and your default browser opens at `http://localhost:8765` showing a 7-tab form. Fill it in, click *Run locally* or *Generate HPC package*.
 
+![Screenshot of Web UI](https://github.com/rgkingston/Montescape.jl/blob/main/screenshot.png)
+
 ## Run from source (developers)
 
 ```bash

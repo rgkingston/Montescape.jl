@@ -1,5 +1,5 @@
 # Montescape.jl
-Master’s Thesis: MonteScape.jl - A Multi-Method Computational Framework for Spatial Movement Analysis with Sensitivity Analysis: The Case of Hannibal’s Alpine Crossing (218 BCE)
+Master’s Thesis Project: MonteScape.jl - A Multi-Method Computational Framework for Spatial Movement Analysis with Sensitivity Analysis: The Case of Hannibal’s Alpine Crossing (218 BCE)
 
 A pure-Julia framework for archaeological movement modelling.
 Integrates **Least-Cost Path** (LCP), **Least-Cost Corridor** (LCC), and **Circuitscape** (circuit-theoretic flow) in a single configurable pipeline with native **Monte Carlo** uncertainty quantification.

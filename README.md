@@ -75,3 +75,7 @@ using MovementFramework: register_layer!
 function compute_my_layer(dem, res, cfg)
     # ... your logic, returning a Float32 matrix clipped to [0, 2] ...
 end
+```
+
+## Associated Master's Thesis
+MonteScape was developed as part of my Master's thesis. The thesis will be added to the GitHub after having received my grade.
